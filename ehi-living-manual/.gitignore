@@ -1,0 +1,59 @@
+# build output
+dist/
+dist-temp/
+dist-final/
+
+# generated types
+.astro/
+
+# generated MDX files from markdown chapters (new format)
+src/content/docs/[0-9][0-9]-[0-9][0-9]-*.mdx
+src/content/docs/[0-9][0-9]-intro.mdx
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# temporary database generation files
+scripts/my-health-data-ehi-wip/
+
+# temporary preview directory
+temp-preview/
+
+# generated query results (these are processed at build time)
+src/data/queries.json
+src/data/processed-queries.json
+src/data/all-processed-queries.json
+
+# bundled chapter markdown for LLM copy feature
+src/data/chapter-markdown.json
+src/data/static-apps.json
+
+# processed content files
+src/content/processed/
+
+# per-chapter query files
+src/data/chapters/
+
+# temporary files
+*.tmp
+*.temp
+.cache/
+temp/
+tmp/
